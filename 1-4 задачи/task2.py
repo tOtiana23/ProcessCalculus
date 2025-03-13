@@ -3,12 +3,12 @@ __author__ = "Бусыгина Татьяна"
 
 import argparse #позволяет разбирать аргументы командной строки
 import mathModule as math
-import sympy as sp
+import sympy as sp #для красивого вывода формулы
 
 def print_formula():
     """Выводит формулу расчёта."""
     x, y = sp.symbols('x y')
-    expr = (sp.Abs(x) - sp.Abs(y)) / (1 + sp.Abs(x * y))
+    expr = (sp.Abs(x) - sp.Abs(y)) / (1 + sp.Abs(x * y))#построение формулы
     sp.init_printing()
     sp.pprint(expr)
 

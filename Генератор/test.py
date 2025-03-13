@@ -7,7 +7,7 @@ from task139 import *
 class TestSequences(unittest.TestCase):
     
     def test_sequence_a(self):
-        self.assertEqual(list(sequence_a(3)), [1, 2, 3])
+        self.assertEqual(list(sequence_a(3)), [1, 2, 3]) #проверка на точное равенство двух объектов
         self.assertEqual(list(sequence_a(5)), [1, 2, 3, 4, 5])
         self.assertEqual(list(sequence_a(1)), [1])
 
@@ -32,7 +32,7 @@ class TestSequences(unittest.TestCase):
         self.assertEqual(list(sequence_e(4)), [11, 31, 89, 259])
 
     def test_sequence_f(self):
-        self.assertAlmostEqual(list(sequence_f(3)), [2, 2, 8/6])
+        self.assertAlmostEqual(list(sequence_f(3)), [2, 2, 8/6]) #Используется для сравнения двух чисел с учётом возможной погрешности, по умолчанию 7 значащих цифр
         self.assertAlmostEqual(list(sequence_f(2)), [2, 2])
         self.assertAlmostEqual(list(sequence_f(4)), [2, 2, 8/6, 16/24])
 
