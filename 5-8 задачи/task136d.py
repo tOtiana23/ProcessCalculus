@@ -6,15 +6,20 @@ import argparse
 
 def main():
     parser = argparse.ArgumentParser(description="Вычисление суммы квадратов элементов массива.")
-    parser.add_argument("n", type=int, help="Количество элементов")
-    parser.add_argument("a", type=float, nargs="+", help="Список действительных чисел")
+    parser.add_argument("--a", type=float, nargs="+", help="Список действительных чисел", default=None)
+
     args = parser.parse_args()
 
-    if len(args.a) != args.n:
-        print("Ошибка: количество введенных чисел не соответствует n")
+
+    # Если аргумент --a не передан, запросим ввод у пользователя
+    if args.a is None:
+        a = list(map(float, input("Введите список действительных чисел через пробел: ").split()))
     else:
-        result = math.sum_squares(args.n, args.a)
-        print("Сумма квадратов всех элементов:", result)
+        a = args.a
+
+
+    result = math.sum_squares(a)
+    print("Сумма квадратов всех элементов:", result)
 
 if __name__ == "__main__":
     main()

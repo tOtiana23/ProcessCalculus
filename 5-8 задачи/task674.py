@@ -5,11 +5,24 @@ import argparse
 import module as math
 import numpy as np
 
-
 def main():
-    n = int(input("Введите порядок матрицы n: "))
+    parser = argparse.ArgumentParser(description="Обработка матрицы с использованием случайных значений.")
+    parser.add_argument("--n", type=int, help="Порядок матрицы n")
+    parser.add_argument("--values", type=int, nargs=10, help="10 целых чисел через пробел")
+
+    args = parser.parse_args()
+
+    if args.n is None:
+        n = int(input("Введите порядок матрицы n: "))
+    else:
+        n = args.n
+
+    if args.values is None:
+        values = list(map(int, input("Введите 10 целых чисел через пробел: ").split()))
+    else:
+        values = args.values
+
     matrix = np.random.randint(1, 20, (n, n))  # Генерация случайной матрицы
-    values = list(map(int, input("Введите 10 целых чисел через пробел: ").split()))
     
     print("Исходная матрица:")
     print(matrix)

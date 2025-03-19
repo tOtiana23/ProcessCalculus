@@ -4,13 +4,19 @@ __author__ = "Бусыгина Татьяна"
 import argparse
 import module as math
 
-
 def main():
     parser = argparse.ArgumentParser(description="Определение кол-ва членов последовательности кратных 3 и не кратных 5")
-    parser.add_argument("n", type=int, help="Количество элементов")
+    parser.add_argument("--n", type=int, help="Количество элементов")
+
     args = parser.parse_args()
 
-    count_result = math.count_multiples(args.n, args.a)
+    # Если аргумент --n не передан, запросим ввод у пользователя
+    if args.n is None:
+        n = int(input("Введите количество элементов n: "))
+    else:
+        n = args.n
+
+    count_result = math.count_multiples(n, lambda x: x % 3 == 0 and x % 5 != 0)
     print("Количество элементов, кратных 3 и не кратных 5:", count_result)
 
 if __name__ == "__main__":
