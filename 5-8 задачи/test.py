@@ -17,17 +17,22 @@ class TestSumSquares(unittest.TestCase):
 
 
 class TestCountMultiples(unittest.TestCase):
+    
     def test_no_multiples(self):
-        self.assertEqual(count_multiples(2, lambda x: x % 3 == 0 and x % 5 != 0), 0)  
+        sequence = list(range(1, 2 + 1))
+        self.assertEqual(count_multiples(sequence, lambda x: x % 3 == 0 and x % 5 != 0), 0)  
 
     def test_some_multiples(self):
-        self.assertEqual(count_multiples(10, lambda x: x % 3 == 0 and x % 5 != 0), 3)
+        sequence = list(range(1, 10 + 1))
+        self.assertEqual(count_multiples(sequence, lambda x: x % 3 == 0 and x % 5 != 0), 3)
 
     def test_exceeding_multiples(self):
-        self.assertEqual(count_multiples(15, lambda x: x % 3 == 0 and x % 5 != 0), 4) 
+        sequence = list(range(1, 15 + 1))
+        self.assertEqual(count_multiples(sequence, lambda x: x % 3 == 0 and x % 5 != 0), 4) 
 
     def test_large_n(self):
-        self.assertEqual(count_multiples(30, lambda x: x % 3 == 0 and x % 5 != 0), 8)  
+        sequence = list(range(1, 30 + 1))
+        self.assertEqual(count_multiples(sequence, lambda x: x % 3 == 0 and x % 5 != 0), 8)  
 
 
 class TestProcessMatrix(unittest.TestCase):

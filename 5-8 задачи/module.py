@@ -14,12 +14,10 @@ def sum_squares(a):
     return my_sum([x**2 for x in a]) 
 
 
-
-def count_multiples(n, condition):
+def count_multiples(sequence, condition):
     '''
     Определение количества чисел, удовлетворяющих заданному условию
     '''
-    sequence = list(range(1, n + 1))
     return sum(1 for x in sequence if condition(x))
 
 

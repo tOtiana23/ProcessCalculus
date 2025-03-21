@@ -15,8 +15,8 @@ def main():
         n = int(input("Введите количество элементов n: "))
     else:
         n = args.n
-
-    count_result = math.count_multiples(n, lambda x: x % 3 == 0 and x % 5 != 0)
+    sequence = range(1, n + 1)
+    count_result = math.count_multiples(sequence, lambda x: x % 3 == 0 and x % 5 != 0)
     print("Количество элементов, кратных 3 и не кратных 5:", count_result)
 
 if __name__ == "__main__":
