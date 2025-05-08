@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bK9Hm2VPCM8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\busyg\\Desktop\\thirdCourse\\Теория вычислительных процессов\\Продюсер консумер\\ProducerAndConsumer\\ProducerAndConsumer\\ProducerAndConsumer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\busyg\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.4\\microsoft.win32.systemevents.9.0.4.nupkg.sha512",
+    "C:\\Users\\busyg\\.nuget\\packages\\system.drawing.common\\9.0.4\\system.drawing.common.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

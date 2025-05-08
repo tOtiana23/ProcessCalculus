@@ -1,0 +1,14 @@
+C:\Users\busyg\Desktop\thirdCourse\Теория вычислительных процессов\Потоки\Threads\Threads\obj\Debug\Threads.csproj.AssemblyReference.cache
+C:\Users\busyg\Desktop\thirdCourse\Теория вычислительных процессов\Потоки\Threads\Threads\obj\Debug\MainWindow.g.cs
+C:\Users\busyg\Desktop\thirdCourse\Теория вычислительных процессов\Потоки\Threads\Threads\obj\Debug\App.g.cs
+C:\Users\busyg\Desktop\thirdCourse\Теория вычислительных процессов\Потоки\Threads\Threads\obj\Debug\Threads_MarkupCompile.cache
+C:\Users\busyg\Desktop\thirdCourse\Теория вычислительных процессов\Потоки\Threads\Threads\bin\Debug\Threads.exe.config
+C:\Users\busyg\Desktop\thirdCourse\Теория вычислительных процессов\Потоки\Threads\Threads\bin\Debug\Threads.exe
+C:\Users\busyg\Desktop\thirdCourse\Теория вычислительных процессов\Потоки\Threads\Threads\bin\Debug\Threads.pdb
+C:\Users\busyg\Desktop\thirdCourse\Теория вычислительных процессов\Потоки\Threads\Threads\obj\Debug\MainWindow.baml
+C:\Users\busyg\Desktop\thirdCourse\Теория вычислительных процессов\Потоки\Threads\Threads\obj\Debug\Threads.g.resources
+C:\Users\busyg\Desktop\thirdCourse\Теория вычислительных процессов\Потоки\Threads\Threads\obj\Debug\Threads.Properties.Resources.resources
+C:\Users\busyg\Desktop\thirdCourse\Теория вычислительных процессов\Потоки\Threads\Threads\obj\Debug\Threads.csproj.GenerateResource.cache
+C:\Users\busyg\Desktop\thirdCourse\Теория вычислительных процессов\Потоки\Threads\Threads\obj\Debug\Threads.csproj.CoreCompileInputs.cache
+C:\Users\busyg\Desktop\thirdCourse\Теория вычислительных процессов\Потоки\Threads\Threads\obj\Debug\Threads.exe
+C:\Users\busyg\Desktop\thirdCourse\Теория вычислительных процессов\Потоки\Threads\Threads\obj\Debug\Threads.pdb

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\busyg\\Desktop\\thirdCourse\\\u0422\u0435\u043E\u0440\u0438\u044F \u0432\u044B\u0447\u0438\u0441\u043B\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0445 \u043F\u0440\u043E\u0446\u0435\u0441\u0441\u043E\u0432\\openMP\\openMP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A141068-1E66-457D-A4DA-2917E7C43EA8}|openMP\\openMP.vcxproj|C:\\Users\\busyg\\Desktop\\thirdCourse\\\u0422\u0435\u043E\u0440\u0438\u044F \u0432\u044B\u0447\u0438\u0441\u043B\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0445 \u043F\u0440\u043E\u0446\u0435\u0441\u0441\u043E\u0432\\openMP\\openMP\\openMP\\openMP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9A141068-1E66-457D-A4DA-2917E7C43EA8}|openMP\\openMP.vcxproj|solutionrelative:openMP\\openMP.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "openMP.cpp",
+              "DocumentMoniker": "C:\\Users\\busyg\\Desktop\\thirdCourse\\\u0422\u0435\u043E\u0440\u0438\u044F \u0432\u044B\u0447\u0438\u0441\u043B\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0445 \u043F\u0440\u043E\u0446\u0435\u0441\u0441\u043E\u0432\\openMP\\openMP\\openMP\\openMP.cpp",
+              "RelativeDocumentMoniker": "openMP\\openMP.cpp",
+              "ToolTip": "C:\\Users\\busyg\\Desktop\\thirdCourse\\\u0422\u0435\u043E\u0440\u0438\u044F \u0432\u044B\u0447\u0438\u0441\u043B\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0445 \u043F\u0440\u043E\u0446\u0435\u0441\u0441\u043E\u0432\\openMP\\openMP\\openMP\\openMP.cpp",
+              "RelativeToolTip": "openMP\\openMP.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-29T13:57:34.624Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

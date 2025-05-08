@@ -18,7 +18,7 @@ def count_multiples(sequence, condition):
     '''
     Определение количества чисел, удовлетворяющих заданному условию
     '''
-    return sum(1 for x in sequence if condition(x))
+    return my_sum(1 for x in sequence if condition(x))
 
 
 def calculate_double_sum(outer_limit, inner_limit):
