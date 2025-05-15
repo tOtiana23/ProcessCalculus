@@ -1,3 +1,8 @@
 ﻿  openMP674.cpp
-C:\Users\busyg\Desktop\thirdCourse\Теория вычислительных процессов\openMP\openMP674\openMP674\openMP674.cpp(47,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\busyg\Desktop\thirdCourse\Теория вычислительных процессов\openMP\openMP674\openMP674\openMP674.cpp(33,53): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\busyg\Desktop\thirdCourse\Теория вычислительных процессов\openMP\openMP674\openMP674\openMP674.cpp(33,48): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\busyg\Desktop\thirdCourse\Теория вычислительных процессов\openMP\openMP674\openMP674\openMP674.cpp(34,68): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\busyg\Desktop\thirdCourse\Теория вычислительных процессов\openMP\openMP674\openMP674\openMP674.cpp(34,63): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  test.cpp
+  Создание кода...
   openMP674.vcxproj -> C:\Users\busyg\Desktop\thirdCourse\Теория вычислительных процессов\openMP\openMP674\x64\Debug\openMP674.exe
